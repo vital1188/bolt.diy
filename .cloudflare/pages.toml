@@ -1,0 +1,7 @@
+[build]
+command = "npm install && npm run build"
+output_directory = "build/client"
+
+[build.environment]
+NODE_VERSION = "20"
+ASDF_SKIP_TOOL_VERSIONS = "true"
